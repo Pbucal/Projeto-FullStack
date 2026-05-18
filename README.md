@@ -27,14 +27,14 @@ Tipos de plataforma: o jogo possui três tipos gerados aleatoriamente:
 |Frágil (15% de chance) — some após ser pisada|
 
 Sistema de câmera: quando o cavaleiro chega no terço superior da tela, a câmera sobe empurrando tudo para baixo, mantendo o jogo sempre visível.
-function loop() {
+*function loop() {
     moverCav();
     verificarColisao();
     atualizarPlats();
     atualizarCamera();
     desenhar();
     requestAnimationFrame(loop);
-}
+}*
 O requestAnimationFrame faz o loop rodar cerca de 60 vezes por segundo, garantindo animação fluida.
 
 Bloqueio da rolagem:
