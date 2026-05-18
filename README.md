@@ -22,9 +22,9 @@ JavaScript (principal.js)
 O arquivo principal.js é a principal parte do projeto Tower Knight, pois ele controla toda a lógica e funcionamento do jogo. É através dele que acontecem a movimentação do cavaleiro, o sistema de câmera, as colisões, os três tipos de plataforma e a atualização da tela em tempo real.
 
 Tipos de plataforma: o jogo possui três tipos gerados aleatoriamente:
-Normal (60% de chance) — plataforma fixa dourada
-Móvel (25% de chance) — se move para os lados
-Frágil (15% de chance) — some após ser pisada
+-Normal (60% de chance) — plataforma fixa dourada
+-Móvel (25% de chance) — se move para os lados
+-Frágil (15% de chance) — some após ser pisada
 
 Sistema de câmera: quando o cavaleiro chega no terço superior da tela, a câmera sobe empurrando tudo para baixo, mantendo o jogo sempre visível.
 function loop() {
